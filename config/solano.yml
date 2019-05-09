@@ -17,7 +17,6 @@ test_exclude_pattern:
 tests:
   - bundle exec rspec spec/agent_spec.rb
 isolate:
-  - spec/scm/scm_spec.rb 
   - spec/cli/commands/server_spec.rb 
   - spec/scm/git_log_parser_spec.rb 
   - spec/solano_api_spec.rb 
